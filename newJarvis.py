@@ -30,6 +30,7 @@ def time():
 
 
 
-enquiry()
-introduction()
-time()
+# enquiry()
+# introduction()
+if __name__== "__main__":
+    print("hello")

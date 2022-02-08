@@ -132,9 +132,20 @@
 
 
 
-if __name__ == '__main__':
-    n = int(input())
-    print()
-    i=1
-for num in range (1,n+1):
-    print(num,end="")
+# if __name__ == '__main__':
+#     n = int(input())
+#     print()
+#     i=1
+# for num in range (1,n+1):
+#     print(num,end="")
+
+
+# print("hello world!")
+# 34+23
+
+# print("Enter two numbers")
+# a=int(input())
+# b=int(input())
+# print(a+b)
+
+
