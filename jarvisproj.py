@@ -57,8 +57,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('ashishyadav63887@gmail.com', 'BumbleBee@79')
-    server.sendmail('ashishyadav63887@gmail.com', to, content)
+    server.login('your gmail here', 'your password here')  #less secure apps acess must be turned for the same gmail account to use this feature.
+    server.sendmail('your gmail here', to, content)
     server.close()
 
 if __name__ == "__main__":
